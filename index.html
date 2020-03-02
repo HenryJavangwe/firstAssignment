@@ -8,7 +8,7 @@
     <style>
         body {
             color: white;
-            background-color: grey;
+            background-color: rgb(104, 99, 99);
         }
         ol{
             display: flex;
@@ -16,6 +16,16 @@
         li{
             margin: auto;
         }
+
+        .zoom {
+            transition: transform .2s;
+            margin:auto;
+            }
+
+        .zoom:hover{
+            transform: scale(1.5);
+            }
+
     </style>
     <title> A brief bescription about Henry</title>
 </head>
@@ -51,14 +61,16 @@
 
 
 <!-- Created Hyperlinks to my 5 most recently watched movies -->
+
+<!-- Adding a target to my links -->
     <section class="second">
-        <div>
+        <div class="">
             <ol>
-                <li><a href="https://www.imdb.com/title/tt4154796/?ref_=ttls_li_tt"><img src="Avengers  Endgame.jpg"></a>"</li>
-                <li><a href="https://www.imdb.com/title/tt2527338/?ref_=ttls_li_tt"><img src="Star Wars.jpg"></a></li>
-                <li><a href="https://www.imdb.com/title/tt4154664/?ref_=ttls_li_tt"><img src="captain marvel.jpg"></a></li>
-                <li><a href="https://www.imdb.com/title/tt0448115/?ref_=ttls_li_tt"><img src="Shazam.jpg"></a></li>
-                <li><a href="https://www.imdb.com/title/tt6146586/?ref_=ttls_li_tt"><img src="John Wick 3.jpg"></a></li>
+                <li><a href="https://www.imdb.com/title/tt4154796/?ref_=ttls_li_tt" target="_blank"><img src="Avengers  Endgame.jpg"></a>"</li>
+                <li><a href="https://www.imdb.com/title/tt2527338/?ref_=ttls_li_tt" target="_blank"><img src="Star Wars.jpg"></a></li>
+                <li><a href="https://www.imdb.com/title/tt4154664/?ref_=ttls_li_tt" target="_blank"><img src="captain marvel.jpg"></a></li>
+                <li><a href="https://www.imdb.com/title/tt0448115/?ref_=ttls_li_tt" target="_blank"><img src="Shazam.jpg"></a></li>
+                <li><a href="https://www.imdb.com/title/tt6146586/?ref_=ttls_li_tt" target="_blank"><img src="John Wick 3.jpg"></a></li>
             </ol>
         </div>
     </section>
