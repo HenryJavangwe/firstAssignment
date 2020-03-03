@@ -1,0 +1,42 @@
+body {
+    color: white;
+    background-color: rgba(105, 85, 85, 0.815);
+}
+ol{
+    display: flex;
+}
+li{
+    margin: auto;
+}
+/* Adding Table Borders and adjusting the table cells */
+    table, th, td {
+    border: 1px solid black;
+    }
+    table {
+        border-spacing: 4px;
+    }
+    th, td {
+        padding: 15px;
+    }
+
+/* DIVISION STYLES */
+
+.green {
+    background-color: green;
+    color: white;
+}
+.red {
+    background-color: red;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+div{
+    display: block;
+    padding: 10px 20px ;
+    margin: 35px;
+}
